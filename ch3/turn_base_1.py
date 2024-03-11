@@ -13,21 +13,13 @@ isPlayerTurn = True
 while True:
     if enemyHp <= 0:
         enemyHp = 0
-<<<<<<< HEAD
-        print("Enemy Down!")
-=======
         print("Enemy has fallen!")
->>>>>>> 575f34f (Challenge 6: Split item_list and main)
         sleep(1)
         print("Player Wins")
         break
     if playerHp <= 0:
         playerHp = 0
-<<<<<<< HEAD
-        print("Player Down!")
-=======
         print("Player has fallen!")
->>>>>>> 575f34f (Challenge 6: Split item_list and main)
         sleep(1)
         print("Enemy Wins")
         break
