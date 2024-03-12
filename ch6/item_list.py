@@ -55,6 +55,8 @@ class ItemApp:
         print("Add item: Successful!\n")
     
     def view_item(self):
+        # Reload
+        self.items = []
         self.load_items()
 
         table = []

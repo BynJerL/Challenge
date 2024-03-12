@@ -16,9 +16,9 @@
     {
         "itemID": 3,
         "itemName": "Remi Cards Set",
-        "itemType": "+Joker",
+        "itemType": "Joker",
         "itemCat": "Toys",
-        "ammount": "200"
+        "ammount": 200
     },
     {
         "itemID": 4,
@@ -47,5 +47,12 @@
         "itemType": "Small",
         "itemCat": "Productivity",
         "ammount": "150"
+    },
+    {
+        "itemID": 8,
+        "itemName": "Remi Cards Set",
+        "itemType": "No Joker",
+        "itemCat": "Toys",
+        "ammount": "250"
     }
 ]
