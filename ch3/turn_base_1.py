@@ -1,12 +1,12 @@
 import random as rd
 from time import sleep
 
-playerMaxHp = 20
+playerMaxHp = 10
 playerHp = playerMaxHp
 playerPow = 3
-enemyMaxHp = 15
+enemyMaxHp = 10
 enemyHp = enemyMaxHp
-enemyPow = 4
+enemyPow = 3
 
 isPlayerTurn = True
 

@@ -54,5 +54,19 @@
         "itemType": "No Joker",
         "itemCat": "Toys",
         "ammount": "250"
+    },
+    {
+        "itemID": 9,
+        "itemName": "Notebook",
+        "itemType": "Blank, B5",
+        "itemCat": "Productivity",
+        "ammount": "200"
+    },
+    {
+        "itemID": 10,
+        "itemName": "Post It",
+        "itemType": "Medium",
+        "itemCat": "Productivity",
+        "ammount": "110"
     }
 ]
