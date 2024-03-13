@@ -1,3 +1,4 @@
+from random import randrange
 from tabulate import tabulate
 from time import sleep
 
@@ -36,8 +37,23 @@ while(1):
                     AvailableSlot[r_i][c_j] = "-"
                     sleep(0.5)
 
-                    print("Next Turn")
+                    isPlayerTurn = False
                     break
                 else:
                     print("The position has already been taken")
-    pass
+    else: 
+        while(1):
+            index = randrange(9) + 1 # Default value of start is 0
+            c_j: int = (index - 1) % 3
+            r_i: int = round((index - 1 - c_j) / 3)
+
+            if AvailableSlot[r_i][c_j] == f"{index}":
+                Board[r_i][c_j] = 'X'
+                AvailableSlot[r_i][c_j] = "-"
+                sleep(0.5)
+                print(f"The opponent has taken position {index}")
+
+                isPlayerTurn = True
+                break
+    
+    print("End of turn")
