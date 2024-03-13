@@ -1,5 +1,5 @@
 A simple note:
 - This is personal challenges
-- The challenge is designed to be easy
-- Some of the previous challenge might be updated (not a guarantee)
-
+- The challenges is designed to be easy (maybe)
+- When working for these challenges, I can use the support from ChatGPT or other generative AI.
+- Some of the previous challenges might be updated (not a guarantee)
