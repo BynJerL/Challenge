@@ -1,4 +1,5 @@
-from tabulate import tabulate
+from wordlist import Words
+
 
 # Hangman States
 Hangman0 : str = "\n\n\n\n\n"
@@ -15,6 +16,8 @@ Hangman10 : str = "|____\n|   |\n|   O\n|  /|\\\n|  / \\\n|______"
 
 HangmanStates : list = [Hangman0, Hangman1, Hangman2, Hangman3, Hangman4, Hangman5, Hangman6, Hangman7, Hangman8, Hangman9, Hangman10]
 
-for state in HangmanStates:
-    print(f"State {HangmanStates.index(state)}:")
-    print(state)
+# Init
+
+
+while(1):
+    pass
