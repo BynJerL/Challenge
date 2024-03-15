@@ -1,4 +1,3 @@
-from random import randrange
 from tabulate import tabulate
 from time import sleep
 
