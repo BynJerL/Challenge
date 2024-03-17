@@ -25,6 +25,9 @@ shuffle(Levels)
 isPlayerLose = False
 score = 0
 
+print(f"Category: {Category}")
+sleep(1)
+
 for word in Levels:
     currentLetters = list('_' * len(word))
     options = [
