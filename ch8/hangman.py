@@ -19,7 +19,7 @@ Hangman10 = "|____\n|   |\n|   O\n|  /|\\\n|  / \\\n|______"
 HangmanStates : list = [Hangman0, Hangman1, Hangman2, Hangman3, Hangman4, Hangman5, Hangman6, Hangman7, Hangman8, Hangman9, Hangman10]
 
 # Init
-Category: str = 'Animals'
+Category: str = 'City'
 Levels: list = Words[Category]
 shuffle(Levels)
 isPlayerLose = False
